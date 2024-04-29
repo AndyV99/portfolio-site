@@ -1,68 +1,61 @@
 @import './base.css';
 
 main {
-    padding: 32px;
+  padding: 32px;
 }
 
 h1 {
-    font-size: 9em;
-    font-family: 'Josefin Sans';
-    display: inline-block;
-    line-height: 1.1em;
+  font-size: 9em;
+  font-family: 'Josefin Sans';
+  display: inline-block;
+  line-height: 1.1em;
 }
 
 p {
-    font-size: 1.6em;
-    font-family: 'Josefin Sans';
-    width: 70vw;
+  font-size: 1.6em;
+  font-family: 'Josefin Sans';
+  width: 70vw;
 }
 
 .red {
-    color: red;
+  color: red;
 }
 
 .divider {
-    height: 0px;
-    border-top: 3px solid #8a8a8a;
-    width: 70vw;
-    margin: 8px 0 8px 0;
+  height: 0px;
+  border-top: 3px solid #8a8a8a;
+  width: 70vw;
+  margin: 8px 0 8px 0;
 }
 
 a {
-    font-family: 'Josefin Sans';
-    font-size: 2.5em;
-    color: #8a8a8a;
-    padding: 8px;
-    width: fit-content;
-    margin-left: auto;
-    text-decoration: none;
+  font-family: 'Josefin Sans';
+  font-size: 2.5em;
+  color: #8a8a8a;
+  padding: 8px;
+  width: fit-content;
+  margin-left: auto;
+  text-decoration: none;
 }
 
 .router-link-exact-active {
-    color: white;
-    border: 6px solid white;
-    border-radius: 2px;
+  color: white;
+  border: 6px solid white;
+  border-radius: 2px;
 }
 
-/*
 @media (max-width: 1200px) {
-    h1 {
-        font-size: 12vw;
-        line-height: 12.5vw;
-    }
+  h1 {
+    font-size: 5em;
+    line-height: 1.1em;
+  }
 
-    p {
-        font-size: 3vw;
-        width: 80vw;
-    }
+  p {
+    font-size: 1.6em;
+    width: 80vw;
+  }
 
-    a {
-        font-size: 4vw;
-    }
-
-    .router-link-exact-active {
-        border-width: 2px;
-    }
-
+  .router-link-exact-active {
+    border-width: 2px;
+  }
 }
-*/
