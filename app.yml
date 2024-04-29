@@ -1,0 +1,10 @@
+runtime: nodejs10
+handlers:
+  # Serve all static files with urls ending with a file extension
+- url: portfolio-site/(.*\..+)$ 
+  static_files: portfolio-site/dist/\1
+  upload: portfolio-site/dist/(.*\..+)$
+  # catch all handler to index.html
+- url: portfolio-site/.*
+  static_files: portfolio-site/dist/index.html
+  upload: portfolio-site/dist/index.html

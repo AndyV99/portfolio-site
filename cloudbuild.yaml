@@ -1,4 +1,7 @@
 steps:
+- name: cd
+  entrypoint: cd
+  args: ["portfolio-site"]
 - name: node:10.15.1
   entrypoint: npm
   args: ["install"]
