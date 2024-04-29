@@ -9,28 +9,17 @@
 </template>
 
 <style>
-.router-link-exact-active {
-    color: white;
-    border: 6px solid white;
-    border-radius: 2px;
-}
+
 
 .navbox {
+    background-color: rgba(50, 50, 50, 0.3);
+    padding: 12px;
+    border-radius: 9px;
     display: grid;
     text-align: right;
-    position: absolute;
+    position: fixed;
     bottom: 48px;
     right: 64px;
     overflow: hidden;
-}
-
-a {
-    font-family: 'Josefin Sans';
-    font-size: 3vw;
-    color: #8a8a8a;
-    padding: 8px;
-    width: fit-content;
-    margin-left: auto;
-    text-decoration: none;
 }
 </style>

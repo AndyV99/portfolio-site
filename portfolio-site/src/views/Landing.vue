@@ -3,7 +3,7 @@ import Nav from '../components/Nav.vue';
 </script>
 
 <template>
-    <main class="container">
+    <main>
         <h1 id="intro">Hi, I'm <span class='red'>Andy</span></h1>
         <div class="textscrollbox"><h1 class="dev-text">Web Developer</h1></div>
         <div class="textscrollbox"><h1 class="eng-text">Software Engineer</h1></div>
@@ -12,35 +12,19 @@ import Nav from '../components/Nav.vue';
 </template>
 
 <style scoped>
-.container {
-    padding: 32px;
-}
-.red {
-    color: red;
-}
 
 #intro {
-    font-size: 8vw;
-    line-height: 8vw;
     opacity: 0;
     animation: fadein 2s;
     animation-fill-mode: forwards;
     padding-bottom: 4px;
     border-bottom: 3px solid white;
-    margin-bottom: 16px;
-}
-
-h1 {
-    font-size: 6vw;
-    font-family: 'Josefin Sans';
-    display: inline-block;
-    line-height: 6.5vw;
+    margin-bottom: .5em;
 }
 
 .textscrollbox {
     overflow: hidden;
-    height: 7vw;
-    margin: 16px;
+    margin: .2em;
 }
 
 .dev-text {
