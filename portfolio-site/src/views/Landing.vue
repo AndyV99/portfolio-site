@@ -1,17 +1,14 @@
+<script setup lang="ts">
+import Nav from '../components/Nav.vue';
+</script>
+
 <template>
     <main class="container">
         <h1 id="intro">Hi, I'm <span class='red'>Andy</span></h1>
         <div class="textscrollbox"><h1 class="dev-text">Web Developer</h1></div>
         <div class="textscrollbox"><h1 class="eng-text">Software Engineer</h1></div>
-
-        <div class="navbox">
-            <RouterLink to='/'>Home</RouterLink>
-            <RouterLink to='/about'>About Me</RouterLink>
-            <RouterLink to='/experience'>Work Experience</RouterLink>
-            <RouterLink to='/demo-projects'>Demo Projects</RouterLink>
-            <RouterLink to='/site-info'>Site Info</RouterLink>
-        </div>
     </main>
+    <Nav />
 </template>
 
 <style scoped>
@@ -34,19 +31,6 @@
 
 .red {
     color: red;
-}
-.navbox {
-    display: grid;
-    text-align: right;
-    position: absolute;
-    bottom: 64px;
-    right: 64px;
-    overflow: hidden;
-}
-
-a {
-    font-family: 'Josefin Sans';
-    font-size: 3vw;
 }
 
 main {
