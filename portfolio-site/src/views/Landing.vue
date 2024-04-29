@@ -12,30 +12,11 @@ import Nav from '../components/Nav.vue';
 </template>
 
 <style scoped>
-.v-leave-active {
-    transition: scroll-up 0.5s ease;
+.container {
+    padding: 32px;
 }
-
-.v-leave-from {
-    margin-bottom: 0;
-}
-
-.v-leave-to {
-    margin-bottom: 1200px;
-}
-
-@keyframes scroll-up {
-    0% {margin-bottom:0;}
-    100% {margin-bottom:1200px;}
-}
-
 .red {
     color: red;
-}
-
-main {
-    margin: 16px;
-    margin-top: 32px;
 }
 
 #intro {

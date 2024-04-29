@@ -1,5 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Landing from '@/views/Landing.vue'
+import Experience from '@/views/Experience.vue'
+import DemoProjects from '@/views/DemoProjects.vue'
+import SiteInfo from '@/views/SiteInfo.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -8,6 +11,21 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: Landing 
+    },
+    {
+      path: '/experience',
+      name: 'experience',
+      component: Experience
+    },
+    {
+      path: '/demo-projects',
+      name: 'demo-projects',
+      component: DemoProjects
+    },
+    {
+      path: '/site-info',
+      name: 'site-info',
+      component: SiteInfo
     },
     {
       path: '/about',
