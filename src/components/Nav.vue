@@ -44,4 +44,15 @@ a {
     border-width: 2px;
   }
 }
+
+@media (max-width: 600px) {
+  a {
+    font-size: 1.2em;
+  }
+  .navbox {
+    bottom: 1em;
+    right: 1em;
+    background-color: rgba(50, 50, 50, 0.8);
+  }
+}
 </style>
