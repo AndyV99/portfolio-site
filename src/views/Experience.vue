@@ -8,7 +8,7 @@ import Nav from '@/components/Nav.vue'
     <div class="experience-box">
       <h2>PS Software Development Engineer <i>Five9</i></h2>
       <h3>January 2022 - Present</h3>
-      <p>What I learned at driving school was</p>
+      <p>What I learned at boating school was...</p>
     </div>
   </main>
   <Nav />
