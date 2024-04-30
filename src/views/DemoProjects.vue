@@ -4,6 +4,7 @@ import Nav from '@/components/Nav.vue'
 <template>
   <main>
     <h1>Demo Projects</h1>
+    <p>WIP</p>
   </main>
   <Nav />
 </template>
